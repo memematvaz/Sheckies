@@ -1,0 +1,408 @@
+ 
+  .about-us {
+    width: 100%;
+    @include containerStyleGnrl;
+    @include containerStylecntr;
+  }
+  
+  .about-us {
+    .container-about-us {
+      max-width: 1200px;
+      width: 100%;
+      margin: auto;
+      @media all and (min-width: 1200px) {
+        @include containerStyleGnrl;
+        justify-content: space-between;
+      }
+    }
+  }
+  .about-us {
+    .container-about-us {
+      .title-about-us {
+        font-family: $primaryFont;
+        font-size: $titleFont;
+        padding-bottom: 30px;
+        color: $headerdarkColor;
+        padding-top: 30px;
+        margin: 0;
+        @media all and (min-width: 768px) {
+          padding-bottom: 45px;
+          padding-top: 45px;
+        }
+      }
+    }
+  }
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        @include aboutUscard;
+      }
+  
+      .lili-about-us {
+        @include aboutUscard;
+      }
+      .luci-about-us {
+        @include aboutUscard;
+      }
+      .celia-about-us {
+        @include aboutUscard;
+      }
+      .eli-about-us {
+        @include aboutUscard;
+      }
+    }
+  }
+  
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        @include aboutUseven;
+      }
+      .lili-about-us {
+        @include aboutUseven;
+      }
+      .eli-about-us {
+        @include aboutUseven;
+      }
+    }
+  }
+  
+  .about-us {
+    .container-about-us {
+      .celia-about-us {
+        @include aboutUsuneven;
+      }
+      .luci-about-us {
+        @include aboutUsuneven;
+      }
+    }
+  }
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        .image-meme {
+          @include imageMobile;
+        }
+      }
+      .lili-about-us {
+        .image-lili {
+          @include imageMobile;
+        }
+      }
+      .luci-about-us {
+        .image-luci {
+          @include imageMobile;
+        }
+      }
+      .celia-about-us {
+        .image-celia {
+          @include imageMobile;
+        }
+      }
+      .eli-about-us {
+        .image-eli {
+          @include imageMobile;
+        }
+      }
+    }
+  }
+  
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        .image-meme {
+          @include imagesEven;
+        }
+      }
+      .lili-about-us {
+        .image-lili {
+          @include imagesEven;
+        }
+      }
+      .eli-about-us {
+        .image-eli {
+          @include imagesEven;
+        }
+      }
+    }
+  }
+  .about-us {
+    .container-about-us {
+      .luci-about-us {
+        .image-luci {
+          @include imagesUneven;
+        }
+      }
+      .celia-about-us {
+        .image-celia {
+          @include imagesUneven;
+        }
+      }
+    }
+  }
+  
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        .image-meme {
+          .meme-face {
+            @include facesAndborders;
+            @media all and (min-width: 768px) {
+              width: inherit;
+            }
+          }
+        }
+      }
+      .luci-about-us {
+        .image-luci {
+          .luci-face {
+            @include facesAndborders;
+            @media all and (min-width: 768px) {
+              width: inherit;
+            }
+          }
+        }
+      }
+      .lili-about-us {
+        .image-lili {
+          .lili-face {
+            @include facesAndborders;
+            @media all and (min-width: 768px) {
+              width: inherit;
+            }
+          }
+        }
+      }
+      .celia-about-us {
+        .image-celia {
+          .celia-face {
+            @include facesAndborders;
+            @media all and (min-width: 768px) {
+              width: inherit;
+            }
+          }
+        }
+      }
+      .eli-about-us {
+        .image-eli {
+          .eli-face {
+            @include facesAndborders;
+            @media all and (min-width: 768px) {
+              width: inherit;
+            }
+          }
+        }
+      }
+    }
+  }
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        .content-meme {
+          @include contentTabletandpcEven;
+        }
+      }
+      .luci-about-us {
+        .content-luci {
+          @include contentTabletandpcUneven;
+        }
+      }
+      .lili-about-us {
+        .content-lili {
+          @include contentTabletandpcEven;
+        }
+      }
+      .celia-about-us {
+        .content-celia {
+          @include contentTabletandpcUneven;
+        }
+      }
+      .eli-about-us {
+        .content-eli {
+          @include contentTabletandpcEven;
+        }
+      }
+    }
+  }
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        .content-meme {
+          .name-meme {
+            @include membersNames;
+          }
+        }
+      }
+      .luci-about-us {
+        .content-luci {
+          .name-luci {
+            @include membersNames;
+          }
+        }
+      }
+      .lili-about-us {
+        .content-lili {
+          .name-lili {
+            @include membersNames;
+          }
+        }
+      }
+      .celia-about-us {
+        .content-celia {
+          .name-celia {
+            @include membersNames;
+          }
+        }
+      }
+      .eli-about-us {
+        .content-eli {
+          .name-eli {
+            @include membersNames;
+          }
+        }
+      }
+    }
+  }
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        .content-meme {
+          .text-meme {
+            @include textStylemobile;
+            @include textStyleEven;
+          }
+        }
+      }
+      .luci-about-us {
+        .content-luci {
+          .text-luci {
+            @include textStylemobile;
+            @include textStyleUneven;
+          }
+        }
+      }
+      .lili-about-us {
+        .content-lili {
+          .text-lili {
+            @include textStylemobile;
+            @include textStyleEven;
+          }
+        }
+      }
+      .celia-about-us {
+        .content-celia {
+          .text-celia {
+            @include textStylemobile;
+            @include textStyleUneven;
+          }
+        }
+      }
+      .eli-about-us {
+        .content-eli {
+          .text-eli {
+            @include textStylemobile;
+            @include textStyleEven;
+          }
+        }
+      }
+    }
+  }
+  .about-us {
+    .container-about-us {
+      .meme-about-us {
+        .content-meme {
+          .menu-iconos-meme {
+            display: inline;
+  
+            ul {
+              padding-left: 0;
+              @include ListMenutablet;
+  
+              li {
+                @include iconsMenutablet;
+              }
+            }
+            a {
+              @include menuLinkstyle;
+            }
+          }
+        }
+      }
+      .luci-about-us {
+        .content-luci {
+          .menu-iconos-luci {
+            display: inline;
+  
+            ul {
+              padding-left: 0;
+              @include ListMenutablet;
+  
+              li {
+                @include iconsMenutablet;
+              }
+            }
+            a {
+              @include menuLinkstyle;
+            }
+          }
+        }
+      }
+      .lili-about-us {
+        .content-lili {
+          .menu-iconos-lili {
+            display: inline;
+  
+            ul {
+              padding-left: 0;
+              @include ListMenutablet;
+  
+              li {
+                @include iconsMenutablet;
+              }
+            }
+            a {
+              @include menuLinkstyle;
+            }
+          }
+        }
+      }
+      .celia-about-us {
+        .content-celia {
+          .menu-iconos-celia {
+            display: inline;
+  
+            ul {
+              padding-left: 0;
+              @include ListMenutablet;
+  
+              li {
+                @include iconsMenutablet;
+              }
+            }
+            a {
+              @include menuLinkstyle;
+            }
+          }
+        }
+      }
+      .eli-about-us {
+        .content-eli {
+          .menu-iconos-eli {
+            display: inline;
+  
+            ul {
+              padding-left: 0;
+              @include ListMenutablet;
+  
+              li {
+                @include iconsMenutablet;
+              }
+            }
+            a {
+              @include menuLinkstyle;
+            }
+          }
+        }
+      }
+    }
+  }
