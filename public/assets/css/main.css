@@ -877,7 +877,7 @@ body {
 .footer-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 70px 90px 90px;
+  grid-template-rows: 0.5fr 1fr 1fr;
 }
 
 .footer-container hr {
@@ -947,7 +947,7 @@ body {
 
 .footer-container .footer-logo img {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .hero {
@@ -1294,8 +1294,8 @@ body {
   .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 200px;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    height: 150px;
   }
 
   .footer-container .footer-container1 {
