@@ -1,0 +1,328 @@
+.signeForm {
+    font-family: $secondaryFont;
+    color: aqua;
+    font-size: 16px;
+}
+
+
+.container-contact-form {
+font-family: $secondaryFont;
+font-size: $paragraphFontsize;
+color: $paragraphColor;
+padding-left: 15px;
+padding-right: 15px;
+width: 96%;
+
+.app__form {
+    .container-name {
+        display: block;
+        font-family: "Open Sans";
+        color: #54585A;
+        padding-bottom: 40px;
+
+        .name {
+            font-family: "Open Sans";
+            color: #54585A;
+            display: block;
+            padding-bottom: 0px;
+            line-height: $paragraphLineheight;
+
+        }
+
+        .name-input {
+
+
+            font-family: "Open Sans";
+            width: calc(100% - 15px);
+            height: 45px;
+            padding-left: 15px;
+            border: solid 1px;
+            border-color: #B8B8B9;
+            margin: 0px;
+            display: block;
+
+        }
+    }
+
+    & .container-email-telephone {
+        display: flex;
+        flex-direction: column;
+
+        .container-email {
+            padding-bottom: 40px;
+            .email {
+                font-family: "Open Sans";
+                color: #54585A;
+                padding-bottom: 10px;
+                line-height: $paragraphLineheight;
+            }
+
+            .email-input {
+
+                font-family: "Open Sans";
+                width: calc(100% - 15px);
+                height: 45px;
+                padding-left: 15px;
+                border: solid 1px;
+                border-color: #B8B8B9;
+                margin: 0px;
+                display: block;
+            }
+
+        }
+
+        .container-telephone {
+            padding-bottom: 40px;
+
+            & .telephone {
+                font-family: "Open Sans";
+                color: #54585A;
+                padding-bottom: 10px;
+                line-height: $paragraphLineheight;
+            }
+
+            .telephone-input {
+
+                font-family: "Open Sans";
+                width: calc(100% - 15px);
+                height: 45px;
+                padding-left: 15px;
+                border: solid 1px;
+                border-color: #B8B8B9;
+                margin: 0px;
+                display: block;
+
+
+            }
+        }
+    }
+
+    & .container-comments {
+        display: block;
+        padding-bottom: 40px;
+
+        .comments {
+            font-family: "Open Sans";
+            color: #54585A;
+            padding-bottom: 10px;
+            line-height: $paragraphLineheight;
+        
+        }
+
+
+        .comments-input {
+
+            font-family: "Open Sans";
+            width: calc(100% - 15px);
+            height: 200px;
+            padding-left: 15px;
+       
+            border: solid 1px;
+            border-color: #B8B8B9;
+            margin: 0px;
+            display: block;
+            text-align: start;
+
+
+        }
+
+    }
+
+    & .container-submit {
+        display: flex;
+        padding-bottom: 40px;
+
+        & .submit {
+
+            background-color: #099D8D;
+            height: 45px;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            border-radius: 4px;
+            width: 100%;
+
+        }
+    }
+
+}
+
+}
+
+
+@media (min-width: 768px) {
+
+.container-contact-form {
+ max-width: 442px;
+ margin: auto;
+
+    .app__form {
+        .container-name {
+           
+
+            .name {
+           
+            }
+
+            .name-input {
+
+
+
+            }
+        }
+
+        & .container-email-telephone {
+           
+
+            .container-email {
+                
+            ;
+                
+                .email {
+                   
+                }
+
+                .email-input {
+
+                  
+                }
+
+            }
+
+            .container-telephone {
+               
+
+                & .telephone {
+                   
+                }
+
+                .telephone-input {
+
+
+
+                }
+            }
+        }
+
+        & .container-comments {
+           
+
+            .comments {
+              
+            
+            }
+
+
+            .comments-input {
+
+
+            }
+
+        }
+
+        & .container-submit { max-width: 206px;
+            margin-left: auto;
+        
+            
+
+            & .submit {
+
+              
+
+            }
+        }
+
+    }
+
+}
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+.container-contact-form {
+ max-width: 601px;
+ margin: auto;
+
+    .app__form {
+        .container-name {
+           
+
+            .name {
+           
+            }
+
+            .name-input {
+
+
+
+            }
+        }
+
+        & .container-email-telephone {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .container-email {width: 58%
+                
+            ;
+                
+                .email {
+                   
+                }
+
+                .email-input {
+
+                  
+                }
+
+            }
+
+            .container-telephone {width: 28%;
+               
+
+                & .telephone {
+                   
+                }
+
+                .telephone-input {
+
+
+
+                }
+            }
+        }
+
+        & .container-comments {
+           
+
+            .comments {
+              
+            
+            }
+
+
+            .comments-input {
+
+
+            }
+
+        }
+
+        & .container-submit {
+           
+            
+
+            & .submit {
+
+              
+
+            }
+        }
+
+    }
+
+}
+}

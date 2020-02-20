@@ -1,0 +1,60 @@
+.contact-home-title {
+    font-family: $primaryFont;
+    font-size: $titleFont;
+    color: $headerdarkColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: $PrimaryColor;
+    @media all and (min-width:1200px) {
+      padding-top: 45px;   
+    }
+    .contact-title {
+      margin: 0;
+    }
+  }
+  .contact-home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    @media all and (min-width: 768px) {
+      width: 442px;
+    }
+    @media all and (min-width:1200px) {
+      width: 601px;
+    }
+    & p{
+    font-size: $paragraphFontsize;
+    line-height: $paragraphLineheight;
+    font-family: $secondaryFont;
+    color:$paragraphColor;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+} 
+  .contact-home-required {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 60px;
+  
+  & p {
+    font-size: 12px;
+    font-family: $secondaryFont;
+    color:$paragraphColor;
+    padding-left: 20px;
+    padding-right: 20px; 
+  }
+}
+
+
+.asterisk {
+    color: $headerlightColor;
+  }

@@ -1,0 +1,76 @@
+/*** ------****** hero ******------- ***/
+.hero {
+  height: 316px;
+  background: url(“../images/_MG_0662pequena.jpg”) center bottom no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-end;
+  width: 100%;
+  .claim {
+    width: 290px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .title {
+    width: 260px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 15px;
+    background-color: white;
+    transform: translateY(50%);
+    flex-grow: 1;
+    margin: 0;
+    font-family: ‘Open Sans’, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.39;
+    color: #000000;
+    display: inline-block;
+  }
+}
+/*HERO TABLET*/
+@media all and (min-width: 768px) {
+  .hero {
+    height: 421px;
+    background-size: cover;
+    .claim {
+      width: 441px;
+      margin-left: 45px;
+      margin-right: 0;
+      opacity: 0.7;
+    }
+    .title {
+      display: inline-block;
+      transform: translateY(0);
+      width: 381px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
+    }
+  }
+}
+/*HERO PC*/
+@media all and (min-width: 1200px) {
+  .hero {
+    height: 550px;
+    .claim {
+      width: 574px;
+      margin-left: 142px;
+    }
+    .title {
+      height: 60px;
+      font-size: 24px;
+      line-height: 1.25;
+      text-align: center;
+    }
+  }
+}

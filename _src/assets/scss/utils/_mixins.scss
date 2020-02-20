@@ -1,0 +1,243 @@
+@mixin containerStyleGnrl {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  @mixin containerStylecntr {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @mixin aboutUscard {
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @media all and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 60px;
+    }
+  }
+  @mixin aboutUseven {
+    @media all and (min-width: 768px) {
+      padding-right: 44px;
+    }
+    @media all and (min-width: 1200px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      padding-bottom: 60px;
+    }
+  }
+  @mixin aboutUsuneven {
+    @media all and (min-width: 768px) {
+      padding-left: 44px;
+    }
+    @media all and (min-width: 1200px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      align-items: center;
+      padding-bottom: 60px;
+    }
+  }
+  @mixin imageMobile {
+    width: 170px;
+    padding-bottom: 15px;
+  }
+  @mixin imagesEven {
+    @media all and (min-width: 768px) {
+      width: 195px;
+      padding-left: 44px;
+      padding-bottom: 0;
+    }
+    @media all and (min-width: 1200px) {
+      width: 268px;
+      padding: 0;
+      padding-left: 138px;
+    }
+  }
+  @mixin imagesUneven {
+    @media all and (min-width: 768px) {
+      width: 195px;
+      order: 2;
+      padding-right: 44px;
+      padding-bottom: 0;
+    }
+    @media all and (min-width: 1200px) {
+      width: 268px;
+      order: 2;
+      padding: 0;
+      padding-right: 138px;
+    }
+  }
+  
+  @mixin facesAndborders {
+    width: 100%;
+    border-radius: 5px;
+    border: 5px solid rgba(107, 112, 113, 0.3);
+  }
+  @mixin membersNames {
+    font-family: $secondaryFont;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+  }
+  @mixin textStylemobile {
+    margin: 0 20px;
+    font-family: $secondaryFont;
+    font-size: $paragraphFontsize;
+    line-height: $paragraphLineheight;
+    color: $paragraphColor;
+    padding-bottom: 15px;
+  }
+  @mixin textStyleEven {
+    @media all and (min-width: 768px) {
+      text-align: left;
+      margin: 0;
+      padding-bottom: 15px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 439px;
+    }
+  }
+  @mixin textStyleUneven {
+    @media all and (min-width: 768px) {
+      text-align: right;
+      margin: 0;
+      padding-bottom: 15px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 439px;
+    }
+  }
+  @mixin ListMenutablet {
+    @media all and (min-width: 768px) {
+      display: inline;
+      padding: 0;
+      list-style-type: $listStyle;
+      margin: 0;
+    }
+  }
+  @mixin iconsMenutablet {
+    display: inline;
+    padding: 3px;
+    list-style-type: $listStyle;
+  }
+  
+  @mixin menuLinkstyle {
+    text-decoration: $linkDeco;
+    color: $headerdarkColor;
+  }
+  @mixin contentTabletandpcEven {
+    @media all and (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 40px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-left: 55px;
+    }
+  }
+  
+  @mixin contentTabletandpcUneven {
+    @media all and (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      order: 1;
+      flex-grow: 2;
+      padding-right: 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-right: 45px;
+    }
+  }
+
+  @mixin container2Style {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: $secondaryFont;
+    color: #54585A;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@mixin containerCentred {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin squareStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@mixin stylePpal {
+  background-color: white;
+  width: 100%;
+  position: relative;
+}
+
+@mixin separation {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: $secondaryFont;
+  font-size: 14px;
+  color: #54585A;
+}
+@mixin stylesBox {
+  font-family: $secondaryFont;
+  width: 96%;
+  height: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: solid 1px;
+  border-color: #B8B8B9;
+}
+@mixin cleanBox {
+  font-family: $secondaryFont;
+  font-size: 14px;
+  color: #B8B8B9;
+}
+@mixin gralBottom {
+  margin-top: 0;
+  background-color: #099D8D;
+  height: 45px;
+  font-family: $secondaryFont;
+  color: white;
+  border-radius: 4px;
+}
+@mixin box2 {
+  font-family: $secondaryFont;
+  width: 395px;
+  height: 45px;
+  margin-left: $left;
+  margin-right: 44px;
+  border: solid 1px;
+  border-color: $copyColor;
+}
+@mixin box3 {
+  font-family: $secondaryFont;
+  width: 162px;
+  height: 45px;
+  margin-left: $left;
+  border: solid 1px;
+  border-color: $copyColor;
+}
