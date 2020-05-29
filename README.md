@@ -5,7 +5,7 @@ Somos un grupo de alumnas de Adalab que vamos a desarrollar esta web corporativa
 
 - Maria Mateo [GitHub](https://github.com/memematvaz) 
 - Lucica Arba [GitHub](https://github.com/arbalu5/) 
-- Liliana Rascón [GitHub]https://github.com/LiliRascon) 
+- Liliana Rascón [GitHub](https://github.com/LiliRascon) 
 - Celia Gutierrez [GitHub](https://github.com/celiagm82) 
 - Eli Alkorta [GitHub](https://github.com/eli-alkorta)
 
